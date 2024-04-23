@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet" type="text/css">
     <title>Campinas Tech Talents</title>
   </head>
   <body>
     <div id="main-container">
       <header>
-        <img src="./sensedia-logo.png" alt="Logo da Sensedia" width='100'>
+        <img src="./sensedia-logo.png" alt="Logo da Sensedia" width='100' align="left">
         <h1>Tech Talents Garage</h1>
       </header>
       <section>
@@ -17,6 +20,98 @@
         <p>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
         </p>
+      </section>
+
+      <section>
+        <h1>Cabeçalho H1</h1>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h2>Cabeçalho H2</h2>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h3>Cabeçalho H3</h3>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h4>Cabeçalho H4</h4>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h5>Cabeçalho H5</h5>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h6>Cabeçalho H6</h6>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </section>
+
+      <section>
+        <h1>Usando tabelas</h1>
+        <table>
+
+          <thead>
+            <th>Marca</th>
+            <th>Veículo</th>
+            <th>Cor</th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Volkswagen</td>
+              <td>Golf</td>
+              <td>Preto</td>
+            </tr>
+            <tr>
+              <td>Fiat</td>
+              <td>Marea</td>
+              <td>Vermelho</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </section>
+      <section>
+        <h1>Formulários</h1>
+        <br>
+        <form action="">
+          <fieldset>
+            <legend>Formulário para registrar seu veículo</legend>
+            <label>Nome: </label>
+            <input type="text" id="nome-do-veiculo" name="name" required>
+            <input type="password" name="">
+
+            <hr>
+
+            <label>Imagem do Veículo</label>
+            <input type="file" name="foto">
+            <label>Cor:</label>
+            <select name="cor">
+              <option value="0">Selecione alguma cor:</option>
+              <option value="Branco">Branco</option>
+              <option value="Preto">Preto</option>
+              <option value="Vermelho">Vermelho</option>
+            </select>
+
+            <hr>
+
+            <label>Tipo:</label>
+            <input type="radio" name="tipo" value="Hatch">Hatch
+            <input type="radio" name="tipo" value="Hatch">Hatch
+            <input type="radio" name="tipo" value="SUV" checked>SUV
+
+            <hr>
+
+            <label>Descrição:</label>
+            <textarea name="descricao" rows="20" cols="60"></textarea>
+
+            <hr>
+
+            <input type="submit" value="Registrar veículo">
+          </fieldset>
+        </form>
       </section>
     </div>
   </body>
